@@ -1,0 +1,65 @@
+input[type="text"] {
+  padding: 8px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.Wrapper {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.TopSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.Book-Img {
+  width: 150px;
+  height: 220px;
+  margin-right: 10px;
+  background-color: rgb(42, 61, 165);
+}
+
+.Books {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.Book {
+  display: flex;
+  margin-right: 20px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.Book:hover {
+  background-color: azure;
+}
+
+.Price {
+  color: #daaa63;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .TopSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Section-Two {
+    margin-top: 8px;
+  }
+
+  .Book {
+    margin-top: 10px;
+  }
+}
